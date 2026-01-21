@@ -1,0 +1,11 @@
+name: broadcasting_exercises
+channels:
+    - conda-forge
+    - nodefaults
+dependencies:
+    - python=3.12
+    - numpy
+    - IPython
+    - pip
+    - pip:
+        - -e .
